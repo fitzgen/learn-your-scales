@@ -1,0 +1,50 @@
+html {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (width > 768px) {
+    html {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+.hflex, .vflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hflex {
+    flex-direction: row;
+}
+
+.vflex {
+    flex-direction: column;
+}
+
+.hflex > *, .vflex > * {
+    flex: 1;
+}
+
+h2 {
+    font-size: 275%;
+    font-weight: normal;
+}
+
+h2 > span {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+content, content > *, content > section > * {
+    width: 100%;
+}
+
+content button {
+    font-size: 200%;
+    padding: 1em;
+}
