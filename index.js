@@ -62,12 +62,18 @@ function randomElement(array) {
 }
 
 const SCALES = [
-  { name: "C major", notes: ["C", "D", "E", "F", "G", "A", "B"] },
-  { name: "D major", notes: ["D", "E", "F♯", "G", "A", "B", "C♯"] },
-  { name: "E major", notes: ["E", "F♯", "G♯", "A", "B", "C♯", "D♯"] },
-  { name: "G major", notes: ["G", "A", "B", "C", "D", "E", "F♯"] },
-  { name: "A major", notes: ["A", "B", "C♯", "D", "E", "F♯", "G♯"] },
-  { name: "B major", notes: ["B", "C♯", "D♯", "E", "F♯", "G♯", "A♯"] },
+  { name: "A♭ major", notes: ["A♭", "B♭", "C", "D♭", "E♭", "F", "G"] },
+  { name: "A major",  notes: ["A", "B", "C♯", "D", "E", "F♯", "G♯"] },
+  { name: "B♭ major", notes: ["B♭", "C", "D", "E♭", "F", "G", "A"] },
+  { name: "B major",  notes: ["B", "C♯", "D♯", "E", "F♯", "G♯", "A♯"] },
+  { name: "C major",  notes: ["C", "D", "E", "F", "G", "A", "B"] },
+  { name: "D♭ major", notes: ["D♭", "E♭", "F", "G♭", "A♭", "B♭", "C"] },
+  { name: "D major",  notes: ["D", "E", "F♯", "G", "A", "B", "C♯"] },
+  { name: "E♭ major", notes: ["E♭", "F", "G", "A♭", "B♭", "C", "D"] },
+  { name: "E major",  notes: ["E", "F♯", "G♯", "A", "B", "C♯", "D♯"] },
+  { name: "F major",  notes: ["F", "G", "A", "B♭", "C", "D", "E"] },
+  { name: "G♭ major", notes: ["G♭", "A♭", "B♭", "C♭", "D♭", "E♭", "F"] },
+  { name: "G major",  notes: ["G", "A", "B", "C", "D", "E", "F♯"] },
 ];
 
 function randomScale() {
