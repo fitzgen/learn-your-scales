@@ -31,12 +31,12 @@ html {
 }
 
 h2 {
-    font-size: 275%;
+    font-size: 300%;
     font-weight: normal;
 }
 
 h2 > span {
-    font-size: 150%;
+    font-size: 200%;
     font-weight: bold;
 }
 
@@ -45,6 +45,7 @@ content, content > *, content > section > * {
 }
 
 content button {
-    font-size: 200%;
+    font-size: 300%;
     padding: 1em;
+    min-heigh: 5em;
 }
